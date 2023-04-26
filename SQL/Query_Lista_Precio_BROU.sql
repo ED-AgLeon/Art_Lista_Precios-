@@ -1,0 +1,1 @@
+select ae.art_codigo_externo CODIGO, ae.descripcion ARTICULO, 'BROU' PROMO , '20%' DTO from articulos_empresas ae where ae.rub_codigo=:Lista_Precio
